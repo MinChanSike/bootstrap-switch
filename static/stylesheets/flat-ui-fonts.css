@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Flat-UI-Icons';
   src: url('http://github.com/designmodo/Flat-UI/tree/master/fonts/Flat-UI-Icons.eot');
-  src: url('http://github.com/designmodo/Flat-UI/tree/master/fonts/Flat-UI-Icons.eot?#iefix') format('embedded-opentype'), url('http://github.com/designmodo/Flat-UI/tree/master/fonts/Flat-UI-Icons.woff') format('woff'), url('http://github.com/designmodo/Flat-UI/tree/master/fonts/Flat-UI-Icons.ttf') format('truetype'), url('../../fonts/Flat-UI-Icons.svg#Flat-UI-Icons') format('svg');
+  src: url('http://github.com/designmodo/Flat-UI/tree/master/fonts/Flat-UI-Icons.eot?#iefix') format('embedded-opentype'), url('http://github.com/designmodo/Flat-UI/tree/master/fonts/Flat-UI-Icons.woff') format('woff'), url('http://github.com/designmodo/Flat-UI/tree/master/fonts/Flat-UI-Icons.ttf') format('truetype'), url('../fonts/Flat-UI-Icons.svg#Flat-UI-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
