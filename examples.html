@@ -750,8 +750,7 @@ $('#disable-switch').bootstrapSwitch('setActive', false);  // true || false
 $(document).ready(function() {
     window.prettyPrint && prettyPrint();
     $('#mySwitch').on('switch-change', function (e, data) {
-        var
- $el = $(data.el)
+        var $el = $(data.el)
             , value = data.value;
         console.log(e, $el, value);
     });
@@ -792,8 +791,7 @@ $(document).ready(function() {
     // CREATE
     $('#btn-create').on('click', function () {
         $('#create-switch').wrap('<div class="make-switch" />').parent().bootstrapSwitch();
-        $(this)
-        .remove()
+        $(this).remove()
     });
 
     // ACTIVATION
@@ -822,9 +820,7 @@ $(document).ready(function() {
     $('#btn-color-on-switch').on('click', function() {
         $('#change-color-switch').bootstrapSwitch('setOnClass', 'success');
     });
-    $('#bt
-
-                        n-color-off-switch').on('click', function() 
+    $('#btn-color-off-switch').on('click', function() 
                             {
         $('#change-color-switch').bootstrapSwitch('setOffClass', 'danger');
     });
@@ -844,7 +840,6 @@ $(document).ready(function() {
     $('.radio2').on('switch-change', function () {
         $('.radio2').bootstrapSwitch('toggleRadioStateAllowUncheck', true);
     });
-
 });
 </script>
                     </section>
