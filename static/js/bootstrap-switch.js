@@ -1,5 +1,5 @@
 /*! ============================================================
- * bootstrapSwitch v1.7 by Larentis Mattia @SpiritualGuru
+ * bootstrapSwitch v1.8 by Larentis Mattia @SpiritualGuru
  * http://www.larentis.eu/
  * 
  * Enhanced for radiobuttons by Stein, Peter @BdMdesigN
@@ -83,7 +83,7 @@
             }
             
             if (textLabel) {
-              $label.html('<div class="text-label">' + textLabel + '</div>');
+              $label.html('' + textLabel + '');
             }
 
             $div = $element.find(inputSelector).wrap($('<div>')).parent().data('animated', false);
