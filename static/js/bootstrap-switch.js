@@ -103,9 +103,13 @@
             if ($element.find(inputSelector).is(':disabled'))
               $(this).addClass('deactivate');
 
-            var changeStatus = function ($this) {
-              $this.siblings('label').trigger('mousedown').trigger('mouseup').trigger('click');
-            };
+              var changeStatus = function ($this) {
+                if ($element.parent('label').is('.label-change-switch')) {
+
+                } else {
+                    $this.siblings('label').trigger('mousedown').trigger('mouseup').trigger('click');
+                }
+              };
 
             $element.on('keydown', function (e) {
               if (e.keyCode === 32) {
